@@ -65,16 +65,16 @@ export default function HeroSection() {
             <p className="text-base md:text-xl text-muted-foreground animate-fade-in" style={{ animationDelay: "0.3s" }}>
               Girijananda Chowdhury University Coding Club
             </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4 pt-8 animate-fade-in" style={{ animationDelay: "0.6s" }}>
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-8 animate-fade-in w-full " style={{ animationDelay: "0.6s" }}>
               <button
                 onClick={handleJoinUs}
-                className="px-6 sm:px-8 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-all duration-300 font-semibold"
+                className="px-6 sm:px-4 py-3 w-1/2 md:w-full bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-all duration-300 font-semibold"
               >
                 Join Us
               </button>
               <button
                 onClick={handleLearnMore}
-                className="px-6 sm:px-8 py-3 border border-primary text-primary rounded-lg hover:bg-primary/10 transition-all duration-300 font-semibold"
+                className="px-6 sm:px-8 py-3 border w-1/2 md:w-full border-primary text-primary rounded-lg hover:bg-primary/10 transition-all duration-300 font-semibold"
               >
                 Learn More
               </button>
