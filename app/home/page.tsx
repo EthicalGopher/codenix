@@ -6,7 +6,7 @@ import Image from "next/image"
 import MorphingRectangle from "@/components/morphing-rectangle"
 
 export default function HeroSection() {
-  const { displayText: scrambledCodenix } = useTextScramble("Codénix", 60)
+  const { displayText: scrambledCodenix } = useTextScramble("< CODÉNIX />", 60)
   const router = useRouter()
 
   const handleJoinUs = () => {

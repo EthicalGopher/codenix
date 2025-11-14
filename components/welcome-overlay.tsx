@@ -6,7 +6,7 @@ import { useTextScramble } from "@/hooks/use-text-scramble"
 export default function WelcomeOverlay() {
   const [isVisible, setIsVisible] = useState(true)
   const [isBlurring, setIsBlurring] = useState(false)
-  const { displayText: scrambledCodenix } = useTextScramble("Codénix", 60)
+  const { displayText: scrambledCodenix } = useTextScramble("< CODÉNIX />", 35)
 
   useEffect(() => {
     const timer = setTimeout(() => {
